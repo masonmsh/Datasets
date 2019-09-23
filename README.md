@@ -9,8 +9,9 @@ Some datasets for recommendation
 python run.py
 ```
 `ratings only`使用`ratings`，`reviews`使用`reviews`  
-通过`info`下的`info.csv`选中想要转换的数据集，通过
+通过`info`下的`info.csv`选中想要转换的数据集
 ```
 python goncf.py --dataset name
 ```
-来将数据集转换为`NCF`形式
+将数据集转换为`NCF`形式
+
